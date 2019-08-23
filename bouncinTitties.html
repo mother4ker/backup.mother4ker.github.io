@@ -1,0 +1,136 @@
+ <!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>bouncingTitties</title>
+  <meta name="description" content="boobs">
+  <meta name="Kelsey" content="boobs">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+<style>
+#boob {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    border-radius: 50%;
+    background: #f7d3bc;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+
+#boob2 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 120px;
+    border-radius: 50%;
+    background: #f7d3bc;
+    animation-name: bounce2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+
+#rnip {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    left: 162px;
+    z-index: 1;
+    border-radius: 50%;
+    background: #edaf9d;
+    animation-name: bounce3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+#lnip {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    z-index: 1;
+    left: 50px;
+    border-radius: 50%;
+    background: #edaf9d;
+    animation-name: bounce4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+  @keyframes bounce{
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 249px;
+      width: 120px;
+      height: 70px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+
+@keyframes bounce2{
+     0% {
+       top: 249px;
+      width: 120px;
+      height: 70px;
+    }
+    50% {
+      top: 0px;
+      width: 100px;
+      height: 100px; 
+    }
+    100% {
+       top: 249px;
+      width: 120px;
+      height: 70px;
+    }
+  }
+
+
+@keyframes bounce3{
+     0% {
+       top: 260px;
+    }
+    50% {
+      top: 50px;
+    }
+    100% {
+       top: 260px;
+    }
+  }
+
+@keyframes bounce4{
+     0% {
+       top: 50px;
+    }
+    50% {
+      top: 260px;
+    }
+    100% {
+       top: 50px;
+    }
+  }
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<div id="boob"></div>
+<div id="lnip"></div> 
+<div id="rnip"></div>
+<div id="boob2"></div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
+
